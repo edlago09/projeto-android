@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('../fonts/idroid.otf') format('opentype');
+}
+
+body{
+    margin: 0px;
+    background-color: #E8E5C2;
+}
+
+header{
+    margin: 0px;
+    background-image: linear-gradient(to bottom, #319763, #002E10);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+}
+
+article{
+    padding: 0px 0px 15px 0px;
+}
+
+header > h1{
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+}
+
+header > p{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+    padding: 9px;
+}
+
+nav > a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #79B894;
+    padding: 5px;
+    transition-duration: .5s;
+    border-radius: 5px;
+}
+
+nav > a:hover{
+    background-color: #2C915E;
+    color: #005D28;
+}
+
+nav{
+    padding: 7px;
+}
+
+main{
+    max-width: 1000px;
+    min-width: 300px;
+    background-color: white;
+    margin: 0px auto 20px auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    border-radius: 0px 0px 10px 10px;
+}
+
+section{
+    padding: 15px;
+}
+
+section > h2{
+    margin: 0px;
+    font-family: 'idroid';
+    color: #1B3B30;
+}
+
+section > p{
+    font-family: sans-serif;
+    padding: 2px;
+    text-indent: 15px;
+    text-align: justify;
+}
+
+section > h3{
+    font-family: 'idroid';
+    color: #185632;
+    background-image: linear-gradient(to right, #75D9A1, white 75%);
+}
+
+p > a{
+    font-weight: bold;
+    padding: 0px 3px;
+    text-decoration: none;
+    color: #20643D;
+    background-color: #87D4A8;
+}
+
+p > a:hover{
+    text-decoration: underline;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+img#pq{
+    width: 50%;
+}
+
+#video{
+    background-color: #043D1D;
+    padding: 0px;
+    margin: 10px 0px;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+}
+
+h4{
+    font-family: Helvetica, sans-serif;
+    color: white;
+    background-color: #175C34;
+    padding: 7px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+ul{
+    list-style-type: '\2714';
+    list-style-position: inside;
+    columns: 2;
+    border-radius: 10px;
+}
+
+#tabela{
+    background-color: #81E2AB;
+    margin: 15px;
+    padding: 0px 0px 5px 0px;
+    border-radius: 10px;
+}
+
+#tabela > p{
+    padding: 0px 10px 0px 10px;
+}
+
+#transparente{
+    background-color: transparent;
+}
+
+aside{
+    padding: 0px 15px 0px 15px;
+}
+
+aside> p{
+    text-indent: 15px;
+    text-align: justify;
+    font-family: sans-serif;
+    margin: 16px 0px 0px 0px;
+}
+
+footer > p{
+    background-color: #042511;
+    text-align: center;
+    margin: 0px;
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+}
